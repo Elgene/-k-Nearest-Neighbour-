@@ -1,0 +1,156 @@
+
+------------------------------
+Loaded hepatitis-training
+Loaded hepatitis-test
+------------------------------
+BILIRUBIN = True:
+	BIGLIVER = True:
+		ANOREXIA = True:
+			ANOREXIA = True:
+				 Class = live, prob = 1.00
+			ANOREXIA = False:
+				ANOREXIA = True:
+					ANOREXIA = True:
+						 Class = live, prob = 1.00
+					ANOREXIA = False:
+						ANOREXIA = True:
+							ANOREXIA = True:
+								 Class = live, prob = 1.00
+							ANOREXIA = False:
+								ANOREXIA = True:
+									 Class = live, prob = 1.00
+								ANOREXIA = False:
+									ANOREXIA = True:
+										 Class = die, prob = 1.00
+									ANOREXIA = False:
+										 Class = live, prob = 1.00
+						ANOREXIA = False:
+							 Class = live, prob = 1.00
+				ANOREXIA = False:
+					ANOREXIA = True:
+						 Class = live, prob = 1.00
+					ANOREXIA = False:
+						 Class = die, prob = 1.00
+		ANOREXIA = False:
+			 Class = die, prob = 1.00
+	BIGLIVER = False:
+		BIGLIVER = True:
+			SGOT = True:
+				SGOT = True:
+					 Class = live, prob = 1.00
+				SGOT = False:
+					 Class = die, prob = 1.00
+			SGOT = False:
+				 Class = live, prob = 1.00
+		BIGLIVER = False:
+			BIGLIVER = True:
+				BIGLIVER = True:
+					 Class = live, prob = 1.00
+				BIGLIVER = False:
+					 Class = die, prob = 1.00
+			BIGLIVER = False:
+				 Class = live, prob = 1.00
+BILIRUBIN = False:
+	BILIRUBIN = True:
+		BILIRUBIN = True:
+			BILIRUBIN = True:
+				BILIRUBIN = True:
+					 Class = die, prob = 1.00
+				BILIRUBIN = False:
+					BILIRUBIN = True:
+						 Class = live, prob = 1.00
+					BILIRUBIN = False:
+						 Class = die, prob = 1.00
+			BILIRUBIN = False:
+				 Class = live, prob = 1.00
+		BILIRUBIN = False:
+			 Class = die, prob = 1.00
+	BILIRUBIN = False:
+		 Class = live, prob = 1.00
+1)  Result: live   True value result: live
+---------------------
+2)  Result: die   True value result: die
+---------------------
+3)  Result: die   True value result: live
+---------------------
+4)  Result: live   True value result: live
+---------------------
+5)  Result: live   True value result: live
+---------------------
+6)  Result: live   True value result: live
+---------------------
+7)  Result: live   True value result: die
+---------------------
+8)  Result: live   True value result: live
+---------------------
+9)  Result: live   True value result: live
+---------------------
+10)  Result: live   True value result: live
+---------------------
+11)  Result: live   True value result: live
+---------------------
+12)  Result: live   True value result: live
+---------------------
+13)  Result: live   True value result: live
+---------------------
+14)  Result: live   True value result: live
+---------------------
+15)  Result: live   True value result: die
+---------------------
+16)  Result: live   True value result: die
+---------------------
+17)  Result: live   True value result: live
+---------------------
+18)  Result: live   True value result: live
+---------------------
+19)  Result: live   True value result: die
+---------------------
+20)  Result: live   True value result: live
+---------------------
+21)  Result: live   True value result: live
+---------------------
+22)  Result: live   True value result: live
+---------------------
+23)  Result: live   True value result: live
+---------------------
+24)  Result: live   True value result: live
+---------------------
+25)  Result: live   True value result: live
+---------------------
+Final result is 20 out of 25 (80.0% )
+==========================================
+Baseline ( live ) is 81.25%
+==========================================
+Loaded files from part2/hepatitis-training-run-0
+Loaded files from  part2/hepatitis-test-run-0
+==========================================
+Loaded files from part2/hepatitis-training-run-1
+Loaded files from  part2/hepatitis-test-run-1
+==========================================
+Loaded files from part2/hepatitis-training-run-2
+Loaded files from  part2/hepatitis-test-run-2
+==========================================
+Loaded files from part2/hepatitis-training-run-3
+Loaded files from  part2/hepatitis-test-run-3
+==========================================
+Loaded files from part2/hepatitis-training-run-4
+Loaded files from  part2/hepatitis-test-run-4
+==========================================
+Loaded files from part2/hepatitis-training-run-5
+Loaded files from  part2/hepatitis-test-run-5
+==========================================
+Loaded files from part2/hepatitis-training-run-6
+Loaded files from  part2/hepatitis-test-run-6
+==========================================
+Loaded files from part2/hepatitis-training-run-7
+Loaded files from  part2/hepatitis-test-run-7
+==========================================
+Loaded files from part2/hepatitis-training-run-8
+Loaded files from  part2/hepatitis-test-run-8
+==========================================
+Loaded files from part2/hepatitis-training-run-9
+Loaded files from  part2/hepatitis-test-run-9
+==========================================
+K-fold for 10 average value is 80.13%
+
+Process finished with exit code 0
